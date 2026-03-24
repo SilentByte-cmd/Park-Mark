@@ -1,0 +1,20 @@
+require 'yaml'
+
+config_path = File.join(ENV['CM_BUILD_DIR'] || Dir.pwd, 'project_config.yml')
+config = YAML.load_file(config_path)
+
+app_identifier config['bundle_identifier']
+metadata_path "./fastlane/metadata"
+screenshots_path "./fastlane/screenshots"
+
+skip_binary_upload false
+skip_app_version_update false
+skip_screenshots true
+skip_metadata false
+force true
+overwrite_screenshots true
+submit_for_review false
+automatic_release false
+
+run_precheck_before_submit false
+precheck_include_in_app_purchases false

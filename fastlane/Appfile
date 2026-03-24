@@ -1,0 +1,6 @@
+require 'yaml'
+
+config_path = File.join(ENV['CM_BUILD_DIR'] || Dir.pwd, 'project_config.yml')
+config = YAML.load_file(config_path)
+
+app_identifier(config['bundle_identifier'])

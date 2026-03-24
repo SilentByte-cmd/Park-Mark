@@ -1,0 +1,15 @@
+bundle_identifier: "innaroshaproject.com"
+app_store_app_id: "6761077806"
+app_version: "1.0"
+
+xcode_project: "Park Mark.xcodeproj"
+xcode_scheme: "Park Mark"
+xcode_version: "16.1"
+
+asc_key_id: "C6W63KW6Q3"
+asc_issuer_id: "22d68c30-ef4a-4fe3-9105-3d93032526c6"
+
+codemagic_integration: "Inna Rosha"
+notification_email: "innaroshaproject@gmail.com"
+
+output_name: "Park Mark.ipa"
