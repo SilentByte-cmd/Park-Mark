@@ -1,14 +1,18 @@
 import SwiftUI
-import UIKit
+import BackgroundTasks
 
-@main
-struct Park_MarkApp: App {
+struct NewGrayTemplateApp: App {
+    
     @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
     
     var body: some Scene {
         WindowGroup {
             GrayView()
         }
-        
     }
+
 }
+
+
+
+

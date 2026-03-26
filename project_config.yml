@@ -1,6 +1,6 @@
 bundle_identifier: "innaroshaproject.com"
 app_store_app_id: "6761077806"
-app_version: "1.0"
+app_version: "1.1"
 
 xcode_project: "Park Mark.xcodeproj"
 xcode_scheme: "Park Mark"
