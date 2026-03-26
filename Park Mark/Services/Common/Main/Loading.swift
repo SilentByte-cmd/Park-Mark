@@ -22,7 +22,7 @@ struct Loading: View {
     var body: some View {
         ZStack {
             if(url == nil){
-
+                ProgressView("Loading...")
             } else {
                 // Динамічний фон згідно конфігурації
                 if webViewConfig.ui.webViewBackgroundColor == "auto" {

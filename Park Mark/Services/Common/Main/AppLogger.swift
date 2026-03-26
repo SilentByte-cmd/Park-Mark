@@ -8,7 +8,7 @@ class AppLogger {
     /// Флаг для вмикання/вимикання всіх логів
     /// true = логи виводяться
     /// false = всі print() ігноруються
-    var logsEnabled: Bool = true
+    var logsEnabled: Bool = false
     
     private init() {}
     
