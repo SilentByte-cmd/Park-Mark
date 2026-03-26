@@ -1,11 +1,3 @@
-//
-//  Loading.swift
-//  FocusFlow
-//
-//  Created by Горніч Антон on 24.03.2026.
-//
-
-
 import SwiftUI
 import WebKit
 import SwiftData
@@ -22,7 +14,7 @@ struct Loading: View {
     var body: some View {
         ZStack {
             if(url == nil){
-                ProgressView("Loading...")
+//                ProgressView("Loading...")
             } else {
                 // Динамічний фон згідно конфігурації
                 if webViewConfig.ui.webViewBackgroundColor == "auto" {
