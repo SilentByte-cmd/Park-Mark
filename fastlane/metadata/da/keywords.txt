@@ -1,0 +1,1 @@
+parkering,parkere,bil,beliggenhed,kort,gps,finde,sporingsenhed,navigation,sted,huske,køretøj,bil

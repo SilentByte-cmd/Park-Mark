@@ -1,0 +1,1 @@
+otopark,park,araba,konum,harita,Küresel Konumlama Sistemi,bulmak,izleyici,navigasyon,leke,Unutma

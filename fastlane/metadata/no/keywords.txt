@@ -1,0 +1,1 @@
+parkering,parkere,bil,sted,kart,GPS-en,finne,sporer,navigasjon,flekk,huske,kjøretøy,bil,markør,nål

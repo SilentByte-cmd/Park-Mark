@@ -1,0 +1,1 @@
+Parken,Park,Auto,Standort,Karte,GPS,finden,Tracker,Navigation,Stelle,erinnern,Fahrzeug,Auto,Marker

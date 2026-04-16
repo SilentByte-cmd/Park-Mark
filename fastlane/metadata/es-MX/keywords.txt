@@ -1,0 +1,1 @@
+aparcamiento,parque,auto,ubicación,mapa,GPS,encontrar,rastreador,navegación,lugar,recordar,vehículo

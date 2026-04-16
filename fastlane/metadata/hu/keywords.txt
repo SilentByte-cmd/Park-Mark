@@ -1,0 +1,1 @@
+parkolás,park,autó,elhelyezkedés,térkép,GPS,lelet,nyomozó,navigáció,folt,emlékszem,jármű,autó,jelző

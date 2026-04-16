@@ -1,0 +1,1 @@
+parkering,parkera,bil,plats,karta,gps,hitta,spårare,navigering,fläck,komma ihåg,fordon,bil,markör

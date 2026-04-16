@@ -1,0 +1,1 @@
+parking,park,samochód,lokalizacja,mapa,GPS,znajdować,abstrakt,nawigacja,miejsce,Pamiętać,pojazd

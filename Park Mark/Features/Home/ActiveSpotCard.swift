@@ -7,12 +7,16 @@ struct ActiveSpotCard: View {
     @EnvironmentObject private var settingsStore: AppSettingsStore
     @Environment(\.colorScheme) private var colorScheme
 
-    private var durationText: String {
-        let interval = max(0, referenceDate.timeIntervalSince(spot.parkedAt))
+    private static let durationFormatter: DateComponentsFormatter = {
         let formatter = DateComponentsFormatter()
         formatter.allowedUnits = [.hour, .minute]
         formatter.unitsStyle = .abbreviated
-        return formatter.string(from: interval) ?? "0m"
+        return formatter
+    }()
+
+    private var durationText: String {
+        let interval = max(0, referenceDate.timeIntervalSince(spot.parkedAt))
+        return Self.durationFormatter.string(from: interval) ?? "0m"
     }
 
     var body: some View {
@@ -33,6 +37,8 @@ struct ActiveSpotCard: View {
                     Text(spot.title)
                         .font(.title3.weight(.bold))
                         .foregroundStyle(.primary)
+                        .lineLimit(2)
+                        .minimumScaleFactor(0.85)
                     HStack(alignment: .top, spacing: 8) {
                         if spot.hasSavedCoordinates || spot.locationSource == .deviceGPS {
                             Image(systemName: "location.circle.fill")
@@ -44,11 +50,13 @@ struct ActiveSpotCard: View {
                                 .font(.subheadline)
                                 .foregroundStyle(.secondary)
                                 .lineLimit(3)
+                                .minimumScaleFactor(0.9)
                             if let subtitle = spot.displayLocationSubtitle {
                                 Text(subtitle)
                                     .font(.caption.weight(.medium))
                                     .foregroundStyle(.tertiary)
                                     .lineLimit(2)
+                                    .minimumScaleFactor(0.9)
                             }
                         }
                     }
@@ -79,11 +87,14 @@ struct ActiveSpotCard: View {
                 HStack(spacing: 8) {
                     Image(systemName: "bell.badge.fill")
                         .foregroundStyle(AppPalette.primary(for: settingsStore.settings.accentTheme))
+                        .accessibilityHidden(true)
                     Text("Reminder at \(reminder.parkPinMediumString())")
                         .font(.footnote.weight(.semibold))
                         .foregroundStyle(.secondary)
                 }
                 .padding(.top, 4)
+                .accessibilityElement(children: .combine)
+                .accessibilityLabel("Reminder at \(reminder.parkPinMediumString())")
             }
         }
         .padding(18)
@@ -97,6 +108,7 @@ struct ActiveSpotCard: View {
                 .stroke(AppPalette.stroke(for: colorScheme), lineWidth: 1)
         )
         .parkPinCardShadow()
+        .accessibilityElement(children: .contain)
     }
 
     private func detailPill(title: String, value: String) -> some View {

@@ -1,0 +1,1 @@
+parking,park,car,location,map,gps,find,tracker,navigation,spot,remember,vehicle,auto,marker,pin

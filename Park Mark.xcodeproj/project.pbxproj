@@ -362,7 +362,7 @@
 				ENABLE_PREVIEWS = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Park-Mark-Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Park Pin";
+				INFOPLIST_KEY_CFBundleDisplayName = "Park Mark";
 				INFOPLIST_KEY_NSCameraUsageDescription = "We use your camera to capture photos for your parking reports.";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We use your location to save where you parked your car and help you find it later.";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We use your microphone to add voice notes to parking reports.";
@@ -378,7 +378,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = innaroshaproject.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -408,7 +408,7 @@
 				ENABLE_PREVIEWS = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Park-Mark-Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Park Pin";
+				INFOPLIST_KEY_CFBundleDisplayName = "Park Mark";
 				INFOPLIST_KEY_NSCameraUsageDescription = "We use your camera to capture photos for your parking reports.";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We use your location to save where you parked your car and help you find it later.";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We use your microphone to add voice notes to parking reports.";
@@ -424,7 +424,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = innaroshaproject.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -458,7 +458,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = innaroshaproject.com.NotificationService;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -492,7 +492,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = innaroshaproject.com.NotificationService;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";

@@ -1,0 +1,1 @@
+pysäköinti,pysäköidä,auto,sijainti,kartta,GPS,löytää,seurantalaite,navigointi,täplä,muistaa,ajoneuvo

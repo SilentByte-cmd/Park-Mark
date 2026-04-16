@@ -11,6 +11,9 @@ struct PPPrimaryButton: View {
         Button(action: action) {
             Text(title)
                 .font(.headline.weight(.semibold))
+                .lineLimit(2)
+                .minimumScaleFactor(0.85)
+                .multilineTextAlignment(.center)
                 .frame(maxWidth: .infinity)
                 .padding(.vertical, 16)
                 .background(
@@ -19,6 +22,9 @@ struct PPPrimaryButton: View {
                 )
                 .foregroundStyle(Color.white)
         }
+        .contentShape(RoundedRectangle(cornerRadius: 16, style: .continuous))
+        .accessibilityLabel(title)
+        .accessibilityHint(isEnabled ? "Double tap to continue." : "Button is currently disabled.")
         .buttonStyle(.plain)
         .disabled(!isEnabled)
     }

@@ -1,0 +1,1 @@
+aparcament,parc,cotxe,ubicació,mapa,GPS,trobar,rastrejador,navegació,lloc,recordar,vehicle,automòbil

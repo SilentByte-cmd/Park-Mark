@@ -1,0 +1,1 @@
+parcare,parc,mașină,locaţie,hartă,GPS,găsi,urmăritor,navigare,loc,amintește-ți,vehicul,auto,marker
